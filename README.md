@@ -11,8 +11,9 @@ Ainsi qu'au meilleur film et au détail de chaque film présents si il clique su
 
 
 ## Lancement de l'API :
+
+Suivre les instructions présentes sur ce lien: 
 ````shell
-suivre les instructions présentes sur ce lien 
 https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
 ````
 ## Clonage du Repository :
@@ -24,7 +25,7 @@ git clone https://github.com/clsayart/Project6OC
 ## Lancement du programme : 
 Exécution du Programme via le fichier principal : 
 ````shell
-exécuter le fichier index.html
+index.html
 ````
 
 
