@@ -4,9 +4,9 @@
 ## Présentation
 
 
-A été demandé, le développement d'une interface utilisateur pour une application web python
+A été demandé, le développement d'une interface utilisateur pour une application web python;
 L'utilisateur peut avoir accès à la liste des meilleurs films dans 5 catégories différentes.
-Ainsi qu'au meilleur film et au détail de chaque film présents si il clique sur leur image
+Ainsi qu'au meilleur film et au détail de chaque film présent si il clique sur son image
 ***
 
 
