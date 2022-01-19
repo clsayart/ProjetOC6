@@ -1,6 +1,13 @@
 .content {
-  max-width: 500px;
+  max-width: 850px;
   margin: auto;
+}
+
+.center {
+margin: auto;
+width: 90%;
+border: 5px solid #FFFF00;
+padding: 10px;
 }
 /* The Modal (background) */
 .modal {
@@ -25,6 +32,15 @@
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.modal-image {
+display: flex;
+justify-content: center;
+}
+
+.modal-content img{
+width: 200px;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
@@ -39,13 +55,6 @@
   text-decoration: none;
   cursor: pointer;
 }
-
-/*.category {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow:scroll;
-}*/
 
 nav{
     display: flex;
@@ -64,10 +73,6 @@ nav{
   width: 645px;
 }
 
-/*#best-film div {
-  width: 50%
-
-}*/
 
 #div-img {
   display: flex;
@@ -90,11 +95,6 @@ nav{
 #div-description button {
    width: 10%;
 }
-
-/*.category p img {
-width:200px;
-height:200px;
-}*/
 
 #container, #container-1, #container-2, #container-3 {
       display: flex;

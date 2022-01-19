@@ -1,3 +1,4 @@
+
 #  Projet 06 - Développez une interface utilisateur avec Javascript
 
 ## Présentation
@@ -11,7 +12,8 @@ Ainsi qu'au meilleur film et au détail de chaque film présents si il clique su
 
 ## Lancement de l'API :
 ````shell
-suivre les instructions présentes sur ce lien https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
+suivre les instructions présentes sur ce lien 
+https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
 ````
 ## Clonage du Repository :
 ````shell
@@ -22,7 +24,10 @@ git clone https://github.com/clsayart/Project6OC
 ## Lancement du programme : 
 Exécution du Programme via le fichier principal : 
 ````shell
-éxecuter le fichier index.html
+exécuter le fichier index.html
 ````
 
 
+=======
+# Project6OC
+>>>>>>> 67cbf9eebc41967048e373181c3cbc9d9e9518ee

@@ -1,18 +1,13 @@
 window.onload = async function() {
 
-  console.log("coucou bébé");
-  //id = getBestFilm();
-  //console.log(id)
-  //var id = 499549;
   var id = await getMovieById()
   console.log("ligne7", id)
   getFilmsAdventure()
   getFilmsAnimation()
   getFilmsRomance()
   getFilmsComedy()
-
   showBestFilm(id)
-  //setTimeout(console.log("id now", id), 3000)
+
 };
 
  const buttonRight = document.getElementById('slideRight');
@@ -57,10 +52,6 @@ window.onload = async function() {
     };
 
 
-
-
-
-
 async function getMovieById() {
 var id = await getBestFilm()
 
@@ -74,7 +65,6 @@ async function getBestFilm() {
     );
     if (!res.ok) {
       console.log("status: ", res.status);
-      // carful you don't get an infinite loop
       await getBestFilm();
     }
     const json = await res.json();
@@ -82,7 +72,6 @@ async function getBestFilm() {
     return json.results[0].id
   } catch (error) {
     console.log("catch error", error);
-    // carful you don't get an infinite loop
     await getBestFilm();
   }
 };
@@ -260,16 +249,16 @@ function getFilmsDetails() {
       .getElementById("image-detail").src=value.image_url;
     document
       .getElementById("title")
-      .innerText = "nom du film: "+value.title;
+      .innerText = "Nom du film: "+value.title;
       document
       .getElementById("genre")
-      .innerText = "genre du film: "+value.genres;
+      .innerText = "Genre du film: "+value.genres;
        document
       .getElementById("date")
       .innerText = "Date de sortie du film: "+value.date_published;
       document
       .getElementById("rated")
-      .innerText = "Rated du film: "+value.rated;
+      .innerText = "Rated: "+value.rated;
       document
       .getElementById("score")
       .innerText = "Score du film: "+value.imdb_score;
