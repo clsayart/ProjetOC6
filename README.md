@@ -28,6 +28,4 @@ exécuter le fichier index.html
 ````
 
 
-=======
-# Project6OC
->>>>>>> 67cbf9eebc41967048e373181c3cbc9d9e9518ee
+
