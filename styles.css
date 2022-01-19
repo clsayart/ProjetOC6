@@ -1,4 +1,7 @@
-
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
